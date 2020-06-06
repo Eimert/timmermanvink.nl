@@ -1,0 +1,22 @@
+---
+title: Contact
+permalink: /contact
+layout: page
+author_profile: true
+---
+Neem contact op om uw wensen te bespreken.
+
+<div class="col-sm">
+  <ul class="list-unstyled">
+    {%- if site.email -%}
+      <li>
+        <i class="far fa-envelope"></i> <a href="mailto:{{ site.email }}?subject=[{{ site.title }}]">{{ site.email }}</a>
+      </li>
+    {%- endif -%}
+    {%- if site.email -%}
+      <li>
+        <i class="fas fa-phone-alt"></i> {{ site.phone }}
+      </li>
+    {%- endif -%}
+  </ul>
+</div>
