@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Timmerman Vink
+title: Voorpagina
 ---
-🛠️ Deze website is in aabouw.
+🛠️ Deze website is in aanbouw.
 
 **Eimert Vink** is een timmervakman met ruim 40 jaar ervaring. Zijn specialisatie is houtbewerking. Timmerman Vink is actief in Emmen en omstreken. 
 
