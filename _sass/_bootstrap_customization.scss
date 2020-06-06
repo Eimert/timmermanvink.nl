@@ -7,7 +7,7 @@
 
 // Variables ===================================================================
 
-$web-font-path: "https://fonts.googleapis.com/css?family=Montserrat" !default;
+$web-font-path: "https://fonts.googleapis.com/css2?family=Raleway&display=swap" !default;
 @import url($web-font-path);
 
 // Navbar ======================================================================
@@ -325,4 +325,11 @@ legend {
   h1, h2, h3, h4, h5, h6 {
     color: inherit;
   }
+}
+
+// Colors
+.bg-custom {
+  background: yellow;
+  background-color: #009FFF;  /* fallback for old browsers */
+  background-image: linear-gradient(to top right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
 }

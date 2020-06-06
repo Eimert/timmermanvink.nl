@@ -1,21 +1,20 @@
 
-# Boostrap 4 Github Pages
+# timmermanvink.nl
 
-[![Build Status](https://travis-ci.org/nicolas-van/bootstrap-4-github-pages.svg?branch=master)](https://travis-ci.org/nicolas-van/bootstrap-4-github-pages)
+A website for my dad.
 
-A [Bootstrap 4](https://getbootstrap.com/) start up project for [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
+## Develop
+Prerequisite: [jekyll](https://jekyllrb.com/).
+```bash
+bundle install
+bundle exec jekyll serve
+jekyll serve```
 
-* A full Bootstrap 4 theme usable both on Github Pages and with a standalone Jekyll.
-* Recompiles Bootstrap from SCSS files, which allows to customize Bootstrap's variables and use Bootstrap themes.
-* Full support of Bootstrap's JavaScript plugins.
-* Supports all features of Github Pages and Jekyll.
+## Technology
+    - Bootstrap 4
+    - Jekyll
+    - Github Pages
 
-[See the website for demonstration and documentation](https://nicolas-van.github.io/bootstrap-4-github-pages/).
-
-## Contribution
-
-[See the contribution guide.](./CONTRIBUTING.md)
-
-## License
-
-[See the license file.](./LICENSE.md)
+## References
+[Getting started: run jekyll](https://nicolas-van.github.io/bootstrap-4-github-pages/)
+[Based on Boostrap 4 Github Pages](https://github.com/nicolas-van/bootstrap-4-github-pages) <br>
