@@ -7,11 +7,26 @@ function addListeners() {
 }
 
 function handleForm(event) {
-    event.preventDefault();
+    // event.preventDefault();
     console.log("submit clicked");
-    document.querySelector("button[type=submit]").disabled = true
+    
+    // document.querySelector("form").remove();
+    // document.querySelector("button[type=submit]").disabled = true
 
     document.querySelector(".lead").textContent = "Bedankt voor uw bericht, over het algemeen hoort u van ons binnen 48 uur."
-    return false;
+    // return false;
 }
+
+// todo: handle form with ajax to prevent reloading the page
+// $(function() {
+//     $('form').submit(function() {
+//         $.ajax({
+//             type: 'POST',
+//             url: 'submit.php',
+//             data: { username: $(this).name.value, 
+//                     password: $(this).password.value }
+//         });
+//         return false;
+//     }); 
+// })
 

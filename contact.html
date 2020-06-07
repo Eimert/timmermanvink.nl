@@ -24,36 +24,21 @@ Wij denken graag mee over uw plannen.
   </ul>
 </div>
 <hr>
-<form id="contactForm" method="_POST" action="http://skyscraper.infinityfreeapp.com/mailhandler.php">
+<form id="contactForm" method="POST" action="http://skyscraper.infinityfreeapp.com/mailhandler.php">
   <div class="form-group">
     <label for="name">Uw naam</label>
-    <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Uw naam" minlength="3" required>
+    <input type="text" class="form-control" name="name" aria-describedby="name" placeholder="Uw naam" minlength="3" required>
   </div>
   <div class="form-group">
     <label for="email">E-mailadres</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mailadres" required>
+    <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="E-mailadres" required>
     <small id="emailHelp" class="form-text text-muted">Wij zullen uw e-mailadres nooit zonder uw toestemming met anderen delen.</small>
   </div>
   <div class="form-group">
-    <label for="question">Omschrijf de werkzaamheden of vraag</label>
-    <textarea class="form-control" id="question" rows="5" required></textarea>
+    <label for="message">Omschrijf de werkzaamheden of vraag</label>
+    <textarea class="form-control" name="message" rows="5" required></textarea>
   </div>
-  <button type="submit" class="btn btn-primary">Verstuur</button>
+  <button type="submit" name="submit" class="btn btn-primary">Verstuur</button>
 </form>
 <br>
 <p class="lead"></p>
-
-<!-- <div class="col-sm">
-  <ul class="list-unstyled">
-    {%- if site.email -%}
-      <li>
-        <i class="far fa-envelope"></i> <a href="mailto:{{ site.email }}?subject=[{{ site.title }}]">{{ site.email }}</a>
-      </li>
-    {%- endif -%}
-    {%- if site.phone -%}
-      <li>
-        <i class="fas fa-mobile-alt"></i> {{ site.phone }}
-      </li>
-    {%- endif -%}
-  </ul>
-</div> -->
