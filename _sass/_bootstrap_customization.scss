@@ -328,16 +328,6 @@ legend {
   }
 }
 
-// Colors
-.bg-custom {
-  background: #7c334f;  /* fallback for old browsers */
-  // background-image: linear-gradient(to top right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-  // background-image: linear-gradient(to top right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-  // background: linear-gradient(25deg, pink 40%, cyan 40%);
-  // background: linear-gradient(to right top, cyan 50%, pink 50%);
-  // background: linear-gradient(to right top, #ec2F4B 50%, #009FFF 50%);
-}
-
 #header {
   background: url("https://cdn.pixabay.com/photo/2018/03/09/22/19/wood-3212803_960_720.jpg") center center / cover no-repeat;
   color: #fff;
@@ -352,4 +342,9 @@ legend {
 .card-img-top {
   object-fit: cover;
   height: 300px;
+}
+
+.nav-link {
+  color: #fff; // why does it not work?
+  font-weight: bold;
 }
