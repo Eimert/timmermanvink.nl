@@ -347,3 +347,8 @@ legend {
     font-size: 1.4em;
   }
 }
+
+.card-img-top {
+  object-fit: cover;
+  height: 300px;
+}
