@@ -344,6 +344,13 @@ legend {
   height: 300px;
 }
 
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+// Other
+
 .nav-link {
   color: #fff; // why does it not work?
   font-weight: bold;
@@ -370,7 +377,3 @@ legend {
   100% { transform: rotate(360deg); }
 }
 
-#gallery {
-  padding-left: 0px;
-  padding-right: 0px;
-}
